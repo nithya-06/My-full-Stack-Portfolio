@@ -1,0 +1,281 @@
+
+///login form 
+
+function validateform_login(){  
+var username=document.getElementById.('username').value;  
+var password=document.getElementById.('password').value;  
+  {
+if(allLetter(username))
+{
+if(CheckPassword(password))
+}
+}
+if (username==null || username==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+//username
+function allLetter(username)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(username.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Name must have alphabet characters only');
+username.focus();
+return false;
+}
+}
+//password validation
+  function CheckPassword(password) 
+{ 
+var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+if(password.value.match(passw)) 
+{ 
+alert('Correct, try another...')
+return true;
+}
+else
+{ 
+alert('Wrong...!')
+return false;
+}
+}
+//end of login form
+
+
+
+
+
+
+
+
+
+
+
+///signup form
+function validateform_signup()
+{
+	                                  
+    var name = document.getElementById('name').value;               
+    var lastname = document.getElementById('lastname').value;    
+    var email = document.getElementById('email').value;  
+    var username=  document.getElementById('username').value;  
+    var password = document.getElementById('password').value;  
+    var repeatpassword = document.getElementById('repeatpassword').value;  
+   //empty
+    if (name==''|| lastname==''||email==''||username==''||password==''||repeatpassword=='')
+    {
+    	document.getElementById("eresult").innerHTML="All field Required";
+    	return false;
+    }
+    elseif(name<8)
+    {
+    	document.getElementById("eresult").innerHTML="Name must be atleast 8 characters";
+    	return false;
+    }
+    elseif(password<8)
+    {
+    	document.getElementById("eresult").innerHTML="Password must be atleast 8 characters";
+    	return false;
+    }
+
+    else{
+    return true;
+		}
+		{
+
+if(allLetter(name))
+{
+if(allLetter(lname))
+{ 
+if(ValidateEmail(email))
+{
+if(allLetter(username))
+{
+if(password.length<8)
+{
+alert("Password must be at least 8 characters long.");  
+  return false;  
+}
+if(repeatpassword.length<8)
+{
+	alert("Repeat password should also be 8 characters long.");
+
+}
+if(Password(password))
+{
+if(checkPassword(password,repeatpassword)
+} 
+}
+} 
+}
+}
+}
+return false;
+}
+
+///name validation
+function allLetter(name)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(name.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Name must have alphabet characters only');
+name.focus();
+return false;
+}
+}
+
+//lastname validation
+function allLetter(name)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(lname.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('LastName must have alphabet characters only');
+lname.focus();
+return false;
+}
+}
+
+//email validation
+function ValidateEmail(email)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(email.value.match(mailformat))
+{
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+email.focus();
+return false;
+}
+}
+//username validation
+function allLetter(username)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(username.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('UserName must have alphabet characters only');
+username.focus();
+return false;
+}
+}
+
+
+//password validation
+function Password(password) 
+{ 
+var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+if(password.value.match(passw)) 
+{ 
+alert('Correct, try another...')
+return true;
+}
+else
+{ 
+alert('Wrong...!')
+return false;
+}
+// Function to check Whether both passwords 
+            // is same or not. 
+            function checkPassword(password,repeatpassword) {
+                // If not same    
+                 if (password!= repeatpassword) { 
+                    alert ("\nPassword did not match: Please try again...") 
+                    return false; 
+                } 
+  
+                // If same return True. 
+                else{ 
+                    alert("Password Match!") 
+                    return true; 
+                } 
+            }
+}                                  
+  //end of signup form 
+    ///contact us form
+function validateform_contactform()
+{
+		var name = document.getElementById('name').value;                 
+ 		var email = document.getElementById('email').value;
+ 		var message = document.getElementById('message').value; 
+ 		{
+if(allLetter(name))
+{
+if(ValidateEmail(email))
+{
+if(Message(message))	
+}
+}
+}
+//validate name 
+	function allLetter(name)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(name.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Name must have alphabet characters only');
+name.focus();
+return false;
+}
+}
+//email validation
+function ValidateEmail(email)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(email.value.match(mailformat))
+{
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+email.focus();
+return false;
+}
+}
+
+//message validation
+function Message(message)
+{ 
+var letters = /^[A-Za-z]+$/;
+if(message.value.match(letters))
+{
+return true;
+}
+else
+{
+alert('Message must have alphabet characters only');
+message.focus();
+return false;
+}
+}
+}
+//end of contact form

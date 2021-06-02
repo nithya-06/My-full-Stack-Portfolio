@@ -1,0 +1,478 @@
+/*HOME*/
+
+*, body{
+    margin: 0;
+    padding: 0;
+    font: 'Roboto';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rajdhani';
+}
+.wrapper{
+    background: lightcyan;
+    width: 100%;
+    height: 100vh;
+    background: url("./home.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+}
+nav a:hover{
+    color: yellow;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+    overflow: hidden;
+    background-color: #000033;
+    text-align: center;
+    justify-content: center;
+}
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  
+  li:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+
+  li:first-child{
+      padding-right: 10%;
+      padding-left: 20px;
+  }
+
+.info{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.intro{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+
+.btn{
+    margin-top: 100px;
+    cursor: pointer;
+    padding: 15px 35px;
+    border: none;
+    background: #000033;
+    color:darkblue;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+}
+
+#login, #checkin{
+    background: white;
+    width: 600px;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 25%;
+    display: none;
+    position: absolute;
+    z-index: 99 !important;
+    border-radius: 5px;
+    padding-top: 1em;
+}
+
+#checkin{
+    height: 500px;
+}
+
+.header{
+    border-bottom: 1px solid #ddd;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    height: 20px;
+}
+
+.form{
+    padding: 1em;
+}
+input{
+    width: 98%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.primaryBtn{
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.footer{
+    border-top: 1px solid #dddddd;
+    margin-top: 6%;
+    padding: 10px;
+}
+
+.closeBtn{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+/* HIRE */
+.section_wrapper{
+    background: #00101f;
+    height: 100vh;
+}
+.heading{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+.mainSection{
+    padding: 20px 40px;
+}
+.hire_info{
+    color: #ddd;
+    opacity: 0.5;
+}
+
+.section{
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+}
+.left, .right{
+    width: 600px;
+    padding: 30px;
+}
+.left{
+    width: 20%;
+    float: left;
+    border-right: 2px solid #dddddd;
+}
+.right{
+    width: 50%;
+}
+.cartinfo{
+    text-align: left;
+   color: white;
+   padding-left:45%;
+padding-top: -10px;
+}
+.cartinfo li{
+    display: unset;
+}
+
+.price{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.sub{
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+.contact{
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.skill
+{
+	margin-top: -50px;
+	padding-left:60px; 
+    font-size:50px;
+    color:white;
+}
+.progressclass
+{
+        font-size: 20px;
+  padding-left:10px; 
+    color:white;
+
+}
+.progress {
+	 width: 55%;
+
+    text-align: center;
+  color: white;
+  background-color: white;
+   }
+   .progress::-webkit-progress-bar {
+  background: grey;
+
+}
+
+.progress::-webkit-progress-value {
+  background: lightblue;
+}
+.recognition {    
+    color: white;
+    font-family: Rajdhani; 
+     padding-left:900px;
+    padding-top: 10px;
+    margin-top:10%; 
+    font-size: 20px;
+   
+}
+.rec_content  {    
+
+    color: white;
+    
+    font-size: 20px;
+    padding-left:1000px;
+
+}
+.kno_content
+{
+    padding-left:900px;
+}
+.hire
+{
+    font-size:30px;
+}color:white;
+
+/*RECOMMENDATION*/
+
+.rc_section{
+    color: white;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.rc_avatar{
+    height: 500px;
+    width: 20%;
+    float: left;
+}
+.rc_info{
+    width: 80%;
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.infoTxt{
+    line-height: 2.0em;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color:white;
+}
+
+.carousel button{
+    border-radius: 50%;
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #00101f;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #00101f;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #00101f;
+  color: white;
+}
+
+/* Column container */
+.rowme {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.sideme {
+  -ms-flex: 40%; /* IE10 */
+  flex: 40%;
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: right;
+
+}
+
+/* Main column */
+.mainme {   
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footerme {
+  text-align: center;
+  background: #00101f;
+  height:10%;
+  
+   
+}
+
+/* For Contact*/
+.contactme {   
+  padding: 60px;
+  text-align: center;
+  background: #00101f;
+  color: white;
+  height:50%;
+}
+
+/*For images*/
+#img1 a.img {
+width: 60%;
+float: left;
+}
+.hr{
+    color:white;
+}
+.wrapper
+{
+  width=80%;
+}
+table
+{margin-left:10%;
+padding-top:-100px;
+}
+.button1
+{
+  text-align: center;
+  width:100px;
+  height: 30px;
+  border-width: thin;
+  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
+margin-left: 50px;
+  border-color: blue;
+  color:#222222;
+}
+.button1:hover
+{
+  background-color: blue;
+}
+.footericons
+{
+    display: flex;
+}
+* {
+  box-sizing: border-box;
+}
+.row1{
+  
+	text-align:left;
+	content: "";
+	clear: both;
+	display: table;
+}
+.hobbies_column1{
+	float:left;
+	width:11.11%;
+	padding-left:60px;
+}
+
+.lang_1{
+	float :left;
+	width:20%;
+	padding: 5px;
+}
+/**For Skills &Expertise**/
+
+.column1 {
+  float: left;
+  width: 60%;
+  padding-right:20%;
+}
+.column2 {
+  float: right;
+  width: 40%;
+}
+.l
+{
+	padding-left:60px;
+}
+.r
+{
+	margin-top:-600px; 
+}
+.langbox{
+	padding-left:15px;
+}
+.ic
+{
+  padding-left:50%;
+}

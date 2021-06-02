@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Roboto; 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rajdhani';
+}
+.second
+{
+	float:right;
+}
+td
+{padding-top: 40px;
+    float:both;
+}
+h1
+{
+	font-size: 40px;
+}
+.third
+{
+	float:both;
+}
+.f1
+{
+	padding: 10px 30px;
+}
+body
+{
+	background-color:#00101f;
+	color:white;
+}
+
+.
+.number1
+{background: lightcyan;
+    width: 100%;
+    height: 100vh;
+    background: url("./home.jpg") no-repeat center center fixed;
+    background-size: cover;
+	font-size: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-style: Roboto; 
+}
+nav a:hover{
+    color: yellow;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000033;
+    text-align: center;
+    justify-content: center;
+}
+li {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: center;
+  }
+  
+  li:hover {
+    color: yellow;
+    cursor: pointer;
+  }
+
+  li:first-child{
+      padding-right: 10%;
+      padding-left: 20px;
+  }
+.info{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.head{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.intro{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.btn{
+    margin-top: 100px;
+    cursor: pointer;
+    padding: 15px 35px;
+    border: none;
+    background: #000033;
+    color: #728ff7;
+    text-transform: uppercase;
+}
+
+#login, #checkin{
+    background: white;
+    width: 600px;
+    height: 250px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 25%;
+    display: none;
+    position: absolute;
+    z-index: 99 !important;
+    border-radius: 5px;
+    padding-top: 1em;
+}
+
+#checkin{
+    height: 500px;
+}
+
+.header{
+    border-bottom: 1px solid #ddd;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    height: 20px;
+}
+
+.form{
+    padding: 1em;
+}
+input{
+    width: 98%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.primaryBtn{
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.footer{
+    border-top: 1px solid #dddddd;
+    margin-top: 6%;
+    padding: 10px;
+}
+
+.closeBtn{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+/*WORK EXPERIENCE*/
+.work experience
+{
+    padding: 20px 40px;
+    height:100vh;
+}
+.work
+{
+    font-size: 60px;
+    color: white;
+}
+.work_exp
+{
+    font-size: 20px;
+    color: #ddd;
+    opacity: 0.5;
+}
+.sec
+{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.right{
+    width: 50%;    
+}
+.sk_right{
+    margin-left: 30%;
+}
+.left{
+    width: 20%;
+    float: left;
+    border-right: 2px solid #dddddd;
+}
+.sk_left{
+    padding-right: 20px;
+    text-align: left;
+}
+.description{
+   color: white;
+}
+.description li{
+    display: unset;
+}
+
+.role1{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.desc{
+    margin-top: 0px;
+    margin-top: 0px;
+}
+.month
+{
+    font-size:10px;
+}
+.date
+{
+    color:blue;
+    background-size:30px;
+
+}
+.sub
+{float:right;
+}
+.role
+{float:right;
+font-size:20px;
+color:grey;}
+.desc
+{color:grey;}
+.column1 {
+  float: left;
+  width: 50%;
+}
+.column2 {
+  float: right;
+  width: 50%;
+}
